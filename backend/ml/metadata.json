@@ -1,0 +1,228 @@
+{
+    "model_name": "RandomForestClassifier",
+    "dataset_name": "UNSW-NB15",
+    "trained_at": "2026-09-09T13:38:23.461270",
+    "training_samples": 140272,
+    "testing_samples": 35069,
+    "accuracy": 0.8280532664176338,
+    "precision": 0.8263992965355172,
+    "recall": 0.8280532664176338,
+    "f1_score": 0.8081175904559328,
+    "feature_count": 42,
+    "classes": [
+        "Analysis",
+        "Backdoor",
+        "DoS",
+        "Exploits",
+        "Fuzzers",
+        "Generic",
+        "Normal",
+        "Reconnaissance",
+        "Shellcode",
+        "Worms"
+    ],
+    "feature_importance": [
+        {
+            "feature": "ct_dst_sport_ltm",
+            "importance": 0.09293802489414973
+        },
+        {
+            "feature": "sbytes",
+            "importance": 0.08171218922754178
+        },
+        {
+            "feature": "ct_srv_dst",
+            "importance": 0.07436984370658788
+        },
+        {
+            "feature": "sttl",
+            "importance": 0.07127461491860258
+        },
+        {
+            "feature": "smean",
+            "importance": 0.05558511886455435
+        },
+        {
+            "feature": "ct_state_ttl",
+            "importance": 0.052583348286988636
+        },
+        {
+            "feature": "ct_src_dport_ltm",
+            "importance": 0.05249865945486043
+        },
+        {
+            "feature": "dload",
+            "importance": 0.051179292229931735
+        },
+        {
+            "feature": "ct_srv_src",
+            "importance": 0.04581416350619651
+        },
+        {
+            "feature": "ct_dst_src_ltm",
+            "importance": 0.045440409211058165
+        },
+        {
+            "feature": "service",
+            "importance": 0.03308631989090448
+        },
+        {
+            "feature": "dttl",
+            "importance": 0.03220564268814443
+        },
+        {
+            "feature": "dmean",
+            "importance": 0.026973864216054633
+        },
+        {
+            "feature": "dbytes",
+            "importance": 0.024334359620718997
+        },
+        {
+            "feature": "rate",
+            "importance": 0.022646765851979275
+        },
+        {
+            "feature": "dur",
+            "importance": 0.022421747127466373
+        },
+        {
+            "feature": "sload",
+            "importance": 0.0216423536744379
+        },
+        {
+            "feature": "ackdat",
+            "importance": 0.018480356216135724
+        },
+        {
+            "feature": "ct_src_ltm",
+            "importance": 0.017898159823136386
+        },
+        {
+            "feature": "tcprtt",
+            "importance": 0.01609673202796482
+        }
+    ],
+    "confusion_matrix": [
+        [
+            36,
+            4,
+            16,
+            292,
+            1,
+            0,
+            51,
+            0,
+            0,
+            0
+        ],
+        [
+            5,
+            32,
+            21,
+            282,
+            5,
+            0,
+            0,
+            1,
+            3,
+            0
+        ],
+        [
+            0,
+            2,
+            207,
+            2179,
+            23,
+            2,
+            2,
+            16,
+            22,
+            0
+        ],
+        [
+            1,
+            1,
+            233,
+            6219,
+            83,
+            2,
+            34,
+            92,
+            14,
+            0
+        ],
+        [
+            3,
+            0,
+            23,
+            335,
+            2759,
+            0,
+            494,
+            3,
+            20,
+            0
+        ],
+        [
+            0,
+            0,
+            12,
+            139,
+            5,
+            7834,
+            5,
+            0,
+            5,
+            0
+        ],
+        [
+            5,
+            0,
+            1,
+            99,
+            840,
+            0,
+            10241,
+            9,
+            5,
+            0
+        ],
+        [
+            0,
+            0,
+            41,
+            498,
+            2,
+            0,
+            4,
+            1552,
+            1,
+            0
+        ],
+        [
+            0,
+            0,
+            1,
+            29,
+            28,
+            0,
+            2,
+            12,
+            155,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            20,
+            2,
+            0,
+            0,
+            0,
+            0,
+            4
+        ]
+    ]
+}
